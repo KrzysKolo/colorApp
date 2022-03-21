@@ -1,0 +1,33 @@
+@import "./styles/Variables.scss";
+
+.app-colors {
+  background-image: url("./utilits/images/expectrum.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+  .container {
+    min-width: 408px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: $primaryTextColor;
+    .box {
+      width: 80vw;
+      margin-top: 5rem;
+    }
+  }
+}
+@media screen and (max-width: 407px) {
+  .app-colors {
+    background-image: none;
+    .container {
+      width: 100vw;
+      .box {
+        width: 100vw;
+        margin-top: 2rem;
+      }
+    }
+  }
+}

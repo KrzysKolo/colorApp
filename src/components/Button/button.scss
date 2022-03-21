@@ -1,0 +1,54 @@
+@import "./../../styles/Variables.scss";
+.btn {
+  background-color: $buttonBlue-100;
+  border-radius: $borderRadius-10;
+  color: white;
+  cursor: pointer;
+  font-size: $fontSize-12;
+  margin: 0 20px;
+  padding: 10px 12px;
+  text-align: center;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  width: 10rem;
+  &:hover {
+    background-color: $buttonBlue-200;
+    color: #edeff2;
+    transform: scale(1.05);
+  }
+  &__basic {
+    background-color: $buttonBlue-100;
+    &:hover {
+      background-color: $buttonBlue-200;
+    }
+  }
+  &__action {
+    background-color: $buttonRed-100;
+    &:hover {
+      background-color: $buttonRed-200;
+    }
+  }
+}
+@media screen and (max-width: 407px) {
+  .btn {
+    margin: 10px 20px;
+    padding: 10px 12px;
+    &:hover {
+      background-color: $buttonBlue-200;
+      color: #edeff2;
+      transform: scale(1.05);
+    }
+    &__basic {
+      background-color: $buttonBlue-100;
+      &:hover {
+        background-color: $buttonBlue-200;
+      }
+    }
+    &__action {
+      background-color: $buttonRed-100;
+      &:hover {
+        background-color: $buttonRed-200;
+      }
+    }
+  }
+}

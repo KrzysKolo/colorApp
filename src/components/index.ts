@@ -1,0 +1,9 @@
+export { default as Modal } from './Modal/Modal';
+export { default as Button } from './Button/Button';
+export { default as Input } from './Input/Input';
+export { default as InputRadio } from './InputRadio/InputRadio';
+export { default as Message } from './Message/Message';
+export { default as ColorsList } from './ColorsList/ColorsList';
+export { default as ColorElement } from './ColorElement/ColorElement';
+export { default as InputSearch } from './InputSerach/InputSearch';
+export { default as ColorSimpleElement } from './ColorSimpleElement/ColorSimpleElement';

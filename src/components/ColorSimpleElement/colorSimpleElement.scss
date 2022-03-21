@@ -1,0 +1,19 @@
+@import "./../../styles/Variables.scss";
+
+.box-square {
+  background-color: attr(data-background red);
+  border: 2px solid $backgroundModal;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px $black;
+  height: 20px;
+  width: 20px;
+}
+.color-wrapper__nameColor {
+  width: 10rem;
+}
+h2 {
+  @extend %h;
+}
+h3 {
+  @extend %h;
+}

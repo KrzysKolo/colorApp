@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { Modal, ColorsList} from './components';
+import Button from './components/Button/Button';
+import { useModal } from './utilits/customHooks/useModal';
 
-function App() {
+const App: React.FC = () => {
+  const { showModal, toggle } = useModal();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className='app-colors'>
+        <div className="container">
+          <div>
+          <div className='box'>
+            <Button onClick={toggle} type="button" btnClass="btn__basic" title="Add Color" />
+          </div>
+            <div className='box-colorsList'>
+            {!showModal && <ColorsList showModal={showModal}  /> }
+          </div>
+          </div>
+        </div>
+        <Modal showModal={showModal} onCancel={toggle} />
+      </section>
+    </>
   );
 }
 
 export default App;
+

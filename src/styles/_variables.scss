@@ -1,0 +1,29 @@
+//KOLORY BUTTONÓW
+$buttonBlue-100: #0a66c2;
+$buttonBlue-200: #065aad;
+$buttonRed-100: #cb2e25;
+$buttonRed-200: #ba2921;
+//KOLORY TŁA
+$backgroundModal: rgba(17, 35, 82, 0.7);
+//PODSTAWOWE KOLORY
+$white: #ffffff;
+$white-100: #f2efef;
+$gray: #e5e3e3;
+$gray-800: #777a7f;
+$gray-200: #898c93;
+$black: #000000;
+//KOLORY TEKSTÓW
+$primaryTextColor: #131e58;
+//BORDER-RADIUS
+$borderRadius-10: 10px;
+//ERROR MESSAGE
+$error: #e83737;
+//SUCCESS MESAGE
+$success: #13a520;
+//FONT SIZE
+$fontSize-12: 1.2rem;
+%h {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding-left: 0.5rem;
+}

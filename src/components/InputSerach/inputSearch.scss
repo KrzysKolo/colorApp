@@ -1,0 +1,9 @@
+@import "./../../styles/Variables.scss";
+@import "./../../styles//mixins";
+
+.searchInput-wrapper {
+  margin-bottom: 2rem;
+  input {
+    @include setInput;
+  }
+}

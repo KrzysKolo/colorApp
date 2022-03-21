@@ -1,0 +1,12 @@
+@import "./../../styles/Variables.scss";
+
+.message-wrapper {
+  background-color: $success;
+  border-radius: $borderRadius-10;
+  box-shadow: 0 2px 2px $gray-200;
+  color: $white;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 6px 10px;
+  text-align: center;
+}
