@@ -1,3 +1,15 @@
+
+ <img src="demo/demo1.jpg" alt="ColorApp" width="550px">
+  <img src="demo/demo2.jpg" alt="ColorApp" width="550px">
+  <img src="demo/demo3.jpg" alt="ColorApp" width="550px">
+  <img src="demo/demo4.jpg" alt="ColorApp" width="550px">
+  <img src="demo/demo5.jpg" alt="ColorApp" width="550px">
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
