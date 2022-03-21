@@ -3,7 +3,7 @@
   <img src="demo/demo2.png" alt="ColorApp" width="550px">
   <img src="demo/demo3.png" alt="ColorApp" width="550px">
   <img src="demo/demo4.png" alt="ColorApp" width="550px">
-  <img src="demo/demo5.png" alt="ColorApp" width="550px">
+
 
 
 
