@@ -1,9 +1,9 @@
 
- <img src="demo/demo1.jpg" alt="ColorApp" width="550px">
-  <img src="demo/demo2.jpg" alt="ColorApp" width="550px">
-  <img src="demo/demo3.jpg" alt="ColorApp" width="550px">
-  <img src="demo/demo4.jpg" alt="ColorApp" width="550px">
-  <img src="demo/demo5.jpg" alt="ColorApp" width="550px">
+ <img src="demo/demo1.png" alt="ColorApp" width="550px">
+  <img src="demo/demo2.png" alt="ColorApp" width="550px">
+  <img src="demo/demo3.png" alt="ColorApp" width="550px">
+  <img src="demo/demo4.png" alt="ColorApp" width="550px">
+  <img src="demo/demo5.png" alt="ColorApp" width="550px">
 
 
 
